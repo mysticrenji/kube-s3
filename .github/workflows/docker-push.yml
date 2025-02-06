@@ -2,7 +2,7 @@ name: Docker Build for kube-s3 image
 on:
   push:
     branches:
-      - main
+      - master
     tags:
       - "v*.*.*"
 
