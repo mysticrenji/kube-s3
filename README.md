@@ -1,3 +1,4 @@
+[![Docker Build for kube-s3 image](https://github.com/mysticrenji/kube-s3/actions/workflows/docker-push.yml/badge.svg)](https://github.com/mysticrenji/kube-s3/actions/workflows/docker-push.yml)
 ## Shared storage with S3 backend
 The storage is definitely the most complex and important part of an application setup, once this part is 
 completed, 80% of the tasks are completed.
