@@ -11,6 +11,7 @@ mkdir -p ${MNT_POINT}
 if [ "$IAM_ROLE" == "none" ]; then
   export AWSACCESSKEYID=${AWSACCESSKEYID:-$AWS_KEY}
   export AWSSECRETACCESSKEY=${AWSSECRETACCESSKEY:-$AWS_SECRET_KEY}
+  export S3_REGION=${S3_REGION:-$S3_REGION}
 
   echo "${AWS_KEY}:${AWS_SECRET_KEY}" > /etc/passwd-s3fs
   chmod 0400 /etc/passwd-s3fs
